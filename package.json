@@ -1,0 +1,48 @@
+{
+  "name": "image-path-preview",
+  "displayName": "Image Path Preview",
+  "description": "Preview image paths while browsing autocomplete or hovering over code in VS Code and compatible editors.",
+  "version": "1.0.1",
+  "publisher": "rockyou",
+  "engines": {
+    "vscode": "^1.95.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onLanguage:javascript",
+    "onLanguage:javascriptreact",
+    "onLanguage:typescript",
+    "onLanguage:typescriptreact",
+    "onLanguage:css",
+    "onLanguage:scss",
+    "onLanguage:less",
+    "onLanguage:html"
+  ],
+  "main": "./src/extension.js",
+  "files": [
+    "src/",
+    "screenshots/"
+  ],
+  "capabilities": {
+    "untrustedWorkspaces": {
+      "supported": true
+    },
+    "virtualWorkspaces": false
+  },
+  "keywords": [
+    "image preview",
+    "autocomplete",
+    "image path",
+    "intellisense",
+    "hover",
+    "react"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RockYou-cmd/image-path-preview"
+  },
+  "homepage": "https://github.com/RockYou-cmd/image-path-preview#readme"
+}
